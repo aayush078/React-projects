@@ -13,7 +13,7 @@ function Card({ id, image, info, price, name, removeTour }) {
     <div className="card">
       <img src={image} className="image" alt="" />
       <div className="tour-info">
-        <div className="tour-info">
+        <div className="tour-detail">
           <h4 className="tour-price">₹ {price}</h4>
           <h4 className="tour-name">{name}</h4>
         </div>
